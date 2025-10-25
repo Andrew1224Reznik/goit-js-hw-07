@@ -27,6 +27,10 @@ body {
   margin-bottom: 16px;
 }
 
+.categories-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
 .categories-item {
   display: flex;
   align-items: center;
@@ -38,10 +42,8 @@ body {
   height: 40px;
   border-radius: 4px;
   opacity: 1;
-  border-width: 1px;
   border: 1px solid #808080;
   padding-left: 16px;
-  margin-bottom: 8px;
 }
 
 .item:not(:last-child) {
