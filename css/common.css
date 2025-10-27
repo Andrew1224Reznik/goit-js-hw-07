@@ -128,4 +128,28 @@ body {
   background: #4e75ff;
   color: #ffffff;
   margin-top: 8px;
+  transition: background-color 0.5s ease;
+}
+
+.btn-form:hover {
+  background-color: #3b5dcc;
+}
+
+.change-color {
+  width: 148px;
+  height: 40px;
+  opacity: 1;
+  border-radius: 8px;
+  gap: 10px;
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  background: #4e75ff;
+  color: #ffffff;
+  transition: background-color 0.5s ease;
+}
+
+.change-color:hover {
+  background-color: #3b5dcc;
 }

@@ -3,3 +3,14 @@ function getRandomHexColor() {
     .toString(16)
     .padStart(6, 0)}`;
 }
+
+const body = document.querySelector(".widget");
+const colorSpan = document.querySelector(".color");
+const changeColorBtn = document.querySelector(".change-color");
+
+// Додаємо слухач події на кнопку
+changeColorBtn.addEventListener("click", () => {
+  const newColor = getRandomHexColor();
+  body.style.backgroundColor = newColor;
+  colorSpan.textContent = newColor;
+});
